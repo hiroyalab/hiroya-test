@@ -1,0 +1,21 @@
+whl/hiroya_selenium-0.0.1-py3-none-any.whl
+# selenium
+selenium
+webdriver_manager
+# test
+pytest
+Pillow
+# pelican
+pelican
+markdown
+# GitHubPage
+ghp-import
+# db access
+oracledb
+ibm_db
+pandas
+pyarrow
+tabulate
+# plugins
+pelican-just-table
+markupsafe==2.0.1
