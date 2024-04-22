@@ -13,7 +13,7 @@ service_name = 'dbname'
 class TestIt01Class():
     def test_01_01_ホーム画面レイアウト確認(self, helper: Helper):
         helper.write_md('#### レイアウト確認')
-        helper.get('http://biz.taiken.cmskit.jp/index.html')        
+        helper.get('http://biz.taiken.cmskit.jp/index.html')
     
     def test_01_02_ホーム画面グローバルナビ遷移(self, helper: Helper):
         helper.write_md('#### サイト表示')
@@ -42,7 +42,7 @@ class TestIt01Class():
     def test_01_04_別タブ遷移確認(self, helper: Helper):
         helper.write_md('#### サイト表示')
         helper.get('http://biz.taiken.cmskit.jp/index.html')
-        helper.write_md('#### キャンペーンページのリンク画像クリック')     
+        helper.write_md('#### キャンペーンページのリンク画像クリック')
         helper.click(By.XPATH, '//*[@id="home-campaign-inner"]/p[1]/a/img')
         helper.write_md('#### 開いたタブを閉じて、元のタブに戻る')
         helper.close_window()
