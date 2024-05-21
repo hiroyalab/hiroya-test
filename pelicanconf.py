@@ -35,6 +35,9 @@ DEFAULT_PAGINATION = 10
 # RELATIVE_URLS = True
 
 # カスタマイズ
+
+# indexで最新記事を出す数
+RECENT_ARTICLES_COUNT=100
 THEME = './themes/elegant'
 USE_FOLDER_AS_CATEGORY = True
 PLUGINS = ['pelican_just_table']

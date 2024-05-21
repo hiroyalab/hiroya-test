@@ -139,6 +139,15 @@ pytest -s tests/test_mod.py::TestClass
 pytest -s tests/test_mod.py::TestClass::test_func
 pytest -s tests/test_mod.py::test_func
 ```
+・実行するブラウザを指定して実行（デフォルトはchrome）
+```
+pytet -s tests --browser=edge
+Browser name: chrome, edge, firefox, safari, sp
+```
+・実行するブラウザの横幅を指定して実行（デフォルトは1532）
+```
+pytet -s tests --width=1920
+```
 
 # 4. コンテンツ作成
  - ローカルで確認する場合
