@@ -9,6 +9,7 @@
         {% include '_includes/minify_css.html' with context %}
         {% else %}
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/elegant.prod.9e9d5ce754.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/swiper-bundle.min.css"/>
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/hiroya-custom.css" media="screen">
         {% endif %}
         {% endblock head_links %}
@@ -103,10 +104,9 @@
         {% if AMAZON_BESTAZON %}
             {% include '_includes/bestazon.html' %}
         {% endif %}
-        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
-        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-        <script src="https://code.jquery.com/jquery.min.js"></script>
-        <script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script src="{{ SITEURL }}/theme/js/swiper-bundle.min.js"></script>
+        <script src="{{ SITEURL }}/theme/js/jquery.min.js"></script>
+        <script src="{{ SITEURL }}/theme/js/bootstrap.min.js"></script>
         <script src="{{ SITEURL }}/theme/js/elegant.prod.9e9d5ce754.js"></script>
         <script src="{{ SITEURL }}/theme/js/intense.min.js"></script>
         <script src="{{ SITEURL }}/theme/js/hiroya-custom.js"></script>

@@ -38,8 +38,9 @@
 .swiper-slide img {
     display: block;
     margin: auto;
+    max-width: 650px;
     height: 800px;
-    width: auto;
+    object-fit: contain; /* アスペクト比を維持しながらフィットさせる */
 }
 
 
